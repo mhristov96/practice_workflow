@@ -1,5 +1,6 @@
 name: Issue created
 on: 
+  workflow_dispatch:
   issues:
     types: [opened, edited, closed, reopened]
 jobs:
