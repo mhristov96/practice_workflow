@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Information about issue
-        run: echo "Event: ${{ github.event_name }}"
+        run: "echo Event: ${{ github.event_name }}"
 
